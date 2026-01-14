@@ -1,0 +1,10 @@
+langchain 
+ipykernel
+langchain-core
+langchain-community
+python-dotenv
+streamlit
+langchain-groq
+langsmith
+
+
