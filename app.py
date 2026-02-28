@@ -13,8 +13,8 @@ import streamlit as st
 load_dotenv()
 
 # loading variables
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+groq_api = os.getenv("GROQ_API_KEY")
+langchain_api = os.getenv("LANGCHAIN_API_KEY")
 
 # using Groq model
 from langchain_groq import ChatGroq
